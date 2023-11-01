@@ -29,3 +29,45 @@
 5. Test unexpected things like checking out without items, entering wrong details, or leaving and coming back
 6. Explore scenarios like applying discounts, handling out-of-stock items, and international shipping
 7. Test things related to user accounts - like logging in during checkout or creating an account while checking out
+
+ Workshop Pt II
+
+Hey there! Here are some tests we can use to make sure our Puppy Bowl game works like it's supposed to:
+
+1. Check the Players List:
+    - Make sure the main page shows a cool list of all the players.
+  
+2. View Player Details:
+   - Click the "See details" button for a player and check if it shows their name, breed, and team (or "unassigned").
+   - Also, make sure the bigger picture shows up.
+
+3. Remove Players:
+   - Click "Remove" for a player and see if they disappear from the list.
+
+4. Add a New Player:
+   - Test adding a player by typing their name and breed in the form and hitting "submit." Make sure the new player pops up without refreshing the page.
+
+Now, for the extra stuff we can test if we're feeling adventurous:
+
+5. View Teammates:
+   - When you look at a player's details, check if it shows all their teammates from the same team.
+
+6. Change Player's Team:
+   - Try changing a player's team using the dropdown and see if it updates in the details and the main list right away.
+
+7. Add Player with Picture:
+   - Test adding a player with an image URL and check if that picture shows up as their portrait.
+
+Additionally:
+
+8. Try Strange Situations:
+   - Check how the game behaves if you don't put anything in the forms or use wrong types of info.
+   - Test adding and removing players really quickly, one after another.
+
+9. Keep Changes Even After Refresh:
+   - See if the players you added or removed stay that way when you refresh the page.
+
+10. Check on Different Screens:
+    - Make sure the game looks good and works well on different devices or screen sizes.
+
+These tests will help us make sure our game works smoothly and does all the cool things it's supposed to do.
